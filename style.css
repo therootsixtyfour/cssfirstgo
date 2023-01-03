@@ -10,6 +10,9 @@ body {
 img {
   max-width: 300px;
   max-height: 300px;
+  float: left;
+  background-size: cover;
+  background-position: center;
 }
 
 h5 {
@@ -20,4 +23,10 @@ h5 {
   border: solid;
   display: inline-block;
   margin: 40px;
+}
+
+figcaption {
+  position: absolute;
+  background-color: white;
+  opacity: 50%;
 }
