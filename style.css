@@ -2,6 +2,12 @@
   box-sizing: border-box;
 }
 
+header {
+  position: relative;
+  left: 50px;
+  top: 50px;
+}
+
 body {
   width: auto;
   width: 1000px;
@@ -13,20 +19,25 @@ img {
   float: left;
   background-size: cover;
   background-position: center;
+  margin-bottom: 15px;
 }
 
 h5 {
-  margin: 20px;
+  margin: 20px 50px;
 }
 
 .box {
   border: solid;
   display: inline-block;
-  margin: 40px;
+  margin: 40px 40px;
 }
 
 figcaption {
   position: absolute;
   background-color: white;
   opacity: 50%;
+}
+
+h3 {
+  text-align: center;
 }
