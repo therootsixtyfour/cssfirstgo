@@ -2,6 +2,22 @@
   box-sizing: border-box;
 }
 
+body {
+  width: auto;
+  width: 1000px;
+}
+
+img {
+  max-width: 300px;
+  max-height: 300px;
+}
+
+h5 {
+  margin: 20px;
+}
+
 .box {
   border: solid;
+  display: inline-block;
+  margin: 40px;
 }
